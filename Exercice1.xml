@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bouteilles>
+    <bouteille>
+        <nom>Cristalline</nom>
+        <volume unite="cl">150</volume>
+        <provenance>
+            <ville>St Cyr la source</ville>
+            <departement>Loiret</departement>
+        </provenance>
+        <pH>7,45</pH>
+        <code_barre>3274080005003</code_barre>
+        <composition>
+            <ions>
+                <positifs>
+                    <ion nom="calcium" qt="71" unite="mg/l" />
+                    <ion nom="magnesium" qt="5,5" unite="mg/l" />
+                </positifs>
+                <negatifs>
+                    <ion nom="chlorure" qt="20" unite="mg/l" />
+                    <ion nom="nitrate" qt="1" unite="mg/l" />
+                </negatifs>
+            </ions>
+            <traces>
+                <residu>fer</residu>
+            </traces>
+        </composition>
+    </bouteille>
+
+    <bouteille>
+        <nom>Cristalline</nom>
+        <volume unite="cl">50</volume>
+        <provenance>
+            <ville>Aurele</ville>
+            <departement>Alpes maritimes</departement>
+        </provenance>
+        <pH>7,4</pH>
+        <code_barre>327408564531303</code_barre>
+        <composition>
+            <ions>
+                <positifs>
+                    <ion nom="calcium" qt="98" unite="mg/l" />
+                    <ion nom="magnesium" qt="4" unite="mg/l" />
+                </positifs>
+                <negatifs>
+                    <ion nom="chlorure" qt="3,6" unite="mg/l" />
+                    <ion nom="nitrate" qt="2" unite="mg/l" />
+                </negatifs>
+            </ions>
+            <traces>
+                <residu>silices</residu>
+            </traces>
+        </composition>
+    </bouteille>
+</bouteilles>

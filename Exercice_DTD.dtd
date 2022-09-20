@@ -1,0 +1,35 @@
+<!ELEMENT biblio (documents*)>
+
+<!ELEMENT documents (livre*|article*)>
+
+<!ELEMENT livre (titre, auteurs, tomes, edition?)>
+<!ELEMENT article (titre, auteurs, references, avis?)>
+
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteurs (auteur+)>
+<!ELEMENT tomes (tome+)>
+<!ELEMENT references (EMPTY)>
+<!ELEMENT avis (#PCDATA)>
+<!ELEMENT edition (EMPTY)>
+
+
+<!ELEMENT auteur (EMPTY)>
+<!ATTLIST auteur 
+nom CDATA #REQUIRED
+prenom CDATA #REQUIRED>
+
+<!ELEMENT tome (EMPTY)>
+<!ATTLIST tome 
+num ID #REQUIRED
+nb_pages CDATA #REQUIRED>
+
+<!ATTLIST edition
+editeur CDATA #IMPLIED
+impression CDATA #IMPLIED
+ISBN CDATA #IMPLIED>
+
+<!ATTLIST references
+journal CDATA #REQUIRED
+nb_pages CDATA #IMPLIED
+publication CDATA #IMPLIED
+num ID #REQUIRED>

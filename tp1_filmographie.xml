@@ -1,0 +1,117 @@
+<!DOCTYPE filmographie SYSTEM "filmographie.dtd">
+
+<filmographie>
+    <film sortie="2005" visa="114089"  nationalite="americain">
+        <titre>King Kong</titre>
+        <realisateur>Peter Jackson</realisateur>
+        <genres>
+            <genre>aventure</genre>
+            <genre>romance</genre>
+        </genres>
+        <exploitation>
+            <sortie_salle>mercredi 14 decembre 2005</sortie_salle>
+            <nb_entrees>2 838 759</nb_entrees>
+            <nb_salles>547</nb_salles>
+            <pays_europeens>
+                <nom>France</nom>
+                <nom>Belgique</nom>
+            </pays_europeens>
+        </exploitation>
+        <duree unite="M">188</duree>
+        <acteurs>
+            <acteur nom="Jackson" prenom="Peter"/>
+            <acteur nom="Watts" prenom="Naomi"/>
+            <acteur nom="Black" prenom="Jack"/>
+            <acteur nom="Brody" prenom="Adrien"/>
+        </acteurs>
+        <scenario>
+            New York, 1933. Artiste de music-hall à la rue, Ann Darrow rencontre l'audacieux explorateur realisateur Carl Denham. Ce dernier rêve de terminer son film inacheve, mais nourrit surtout la folle ambition d'être le premier à decouvrir le secret de la mysterieuse Skull Island. Il va entraîner Ann dans sa perilleuse aventure...
+        </scenario>
+    </film>
+
+    <film sortie="1977" visa="?"  nationalite="americain">
+        <titre>Star Wars, A New Hope</titre>
+        <realisateur>George Lucas</realisateur>
+        <genres>
+            <genre>Science Fiction</genre>
+            <genre>aventure</genre>
+        </genres>
+        <exploitation>
+            <sortie_salle>19 octobre 1977</sortie_salle>
+            <nb_entrees>8 456 789</nb_entrees>
+            <nb_salles>1305</nb_salles>
+            <pays_europeens>
+                <nom>France</nom>
+                <nom>Itlie</nom>
+            </pays_europeens>
+        </exploitation>
+        <duree unite="M">121</duree>
+        <acteurs>
+            <acteur nom="Hamill" prenom="Mark" />
+            <acteur nom="Ford" prenom="Harrison" />
+            <acteur nom="Fisher" prenom="Carrie" />
+        </acteurs>
+        <scenario>
+            Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturee par les troupes de choc de l'Empereur menees par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l'Etoile Noire, une station spatiale invulnerable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagne de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'echoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confine aux travaux de la ferme, ce dernier se lance à la recherche de ce mysterieux Obi-Wan Kenobi, devenu ermite au coeur des montagnes desertiques de Tatooine... 
+        </scenario>
+    </film>
+
+    <film sortie="2001" visa="?"  nationalite="new zeland">
+        <titre>Lord of the Rings : The Fellowship of the Ring</titre>
+        <realisateur>Peter Jackson</realisateur>
+        <genres>
+            <genre>action</genre>
+            <genre>aventure</genre>
+            <genre>drame</genre>
+        </genres>
+        <exploitation>
+            <sortie_salle>19 decembre 2001</sortie_salle>
+            <nb_entrees>9 456 789</nb_entrees>
+            <nb_salles>9800</nb_salles>
+            <pays_europeens>
+                <nom>Espagne</nom>
+                <nom>Itlie</nom>
+            </pays_europeens>
+        </exploitation>
+        <duree unite="M">178</duree>
+        <acteurs>
+            <acteur nom="Wood" prenom="Elijah" />
+            <acteur nom="Bloom" prenom="Orlando" />
+            <acteur nom="Bean" prenom="Sean" />
+            <acteur nom="Mortensen" prenom="Viggo" />
+            <acteur nom="McKellen" prenom="Ian" />
+        </acteurs>
+        <scenario>
+            Un Hobbit du Comte et ses huit compagnons se mettent en route pour detruire le puissant anneau unique et sauver la Terre du Milieu du terrible Sauron.
+        </scenario>
+            
+    </film>
+
+    <film sortie="1989" visa="156974613"  nationalite="americain">
+        <titre>Indiana Jones and the last Crusade</titre>
+        <realisateur>Steven Spielberg</realisateur>
+        <genres>
+            <genre>action</genre>
+            <genre>aventure</genre>
+            <genre>romance</genre>
+        </genres>
+        <exploitation>
+            <sortie_salle>18 octobre 1989</sortie_salle>
+            <nb_entrees>1 456 789</nb_entrees>
+            <nb_salles>500</nb_salles>
+            <pays_europeens>
+                <nom>Espagne</nom>
+                <nom>Belgique</nom>
+                <nom>Allemagne</nom>
+                <nom>France</nom>
+            </pays_europeens>
+        </exploitation>
+        <duree unite="M">127</duree>
+        <acteurs>
+            <acteur nom="Ford" prenom="Harrison" />
+        </acteurs>
+        <scenario>
+            En 1938, après la disparition de son père le professeur Henry Jones Senior dans sa poursuite du Saint Graal, Indiana Jones se retrouve de nouveau confronte aux nazis d'Adolf Hitler pour les ...
+        </scenario>
+    </film>
+</filmographie>

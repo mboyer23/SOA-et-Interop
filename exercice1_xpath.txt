@@ -1,0 +1,32 @@
+--1-- tous les nuages
+/child::nuages/child::nuage/child::nom/child::text()
+OU
+/nuages/nuage/nom/text()
+
+
+--2--compter les nuages
+count(//nuage)
+
+--3-- nuages ayant pour espèce flocus
+/nuages/nuage[nom/espece="flocus"]/parent/text()
+
+--4-- compter les flocus
+count(//nuage[nom/espece="flocus"]/parent)
+
+--5-- nuages dont l’altitude minimale est inférieure ou égale à 2000 mètres
+//nuage/altitude[@min>="2000"]/parent/nom/text()
+
+--6-- nuages qui ont un différentiel supérieur ou égal à 6000 entre l’altitude minimale et l’altitude maximale
+//nuage[(altitude@max)-(altitude@min)>=6000]/../nom/text()
+
+--7-- selectionne les nuages hydrométéores
+//nuage/hydrométéores/../nom/text()
+
+--8-- sélectionne la deuxième espèce du troisième nuage
+//nuage[3]/nom/espece[2]/text()
+
+--9-- toutes les especes de nuage
+//nuage/nom/espece/text()
+
+--10-- especes de nuages dont le nom finit par "is"
+//nuage/nom/espece[substring(text(),string-length(text()-2),2)="is"]/text()

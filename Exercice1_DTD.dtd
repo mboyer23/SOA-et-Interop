@@ -1,0 +1,14 @@
+<!ELEMENT bouteilles (bouteille*)>
+<!ELEMENT bouteille (nom, volume, provenance, pH, code_barres, composition)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT provenance (ville, departement)>
+<!ELEMENT pH (#PCDATA)>
+<!ELEMENT code_barres (#PCDATA)>
+<!ELEMENT composition (ions, traces?)>
+<!ELEMENT traces (residu*)>
+<!ELEMENT ions (positifs, negatifs)>
+<!ELEMENT positifs (ion*)>
+<!ELEMENT negatifs (ion*)>
+<!ELEMENT ion EMPTY>
+<!ATTLIST volume unite (ml|cl|dl|l) "cl">

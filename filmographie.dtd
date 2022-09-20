@@ -1,0 +1,25 @@
+<!ELEMENT filmographie (film*)>
+<!ELEMENT film (titre, realisateur, genres, exploitation, duree, acteurs, scenario)>
+<!ATTLIST film
+sortie CDATA #REQUIRED
+visa CDATA #REQUIRED
+nationalite CDATA #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>
+<!ELEMENT genres (genre+)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT exploitation (sortie_salle, nb_entrees, nb_salles, pays_europeens)>
+<!ELEMENT sortie_salle (#PCDATA)>
+<!ELEMENT nb_entrees (#PCDATA)>
+<!ELEMENT nb_salles (#PCDATA)>
+<!ELEMENT pays_europeens (nom+)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT duree (#PCDATA)>
+<!ATTLIST duree
+unite CDATA #IMPLIED>
+<!ELEMENT acteurs (acteur+)>
+<!ELEMENT acteur EMPTY>
+<!ATTLIST acteur
+nom CDATA #REQUIRED
+prenom CDATA #REQUIRED>
+<!ELEMENT scenario (#PCDATA)>

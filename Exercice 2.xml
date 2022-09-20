@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nuages>
+    <nuage nom="cumulonimbus">
+        <hydrométéore bool="true">
+            <phénomènes>
+                <phenomene>averse</phenomene>
+                <phenomene>neige</phenomene>
+                <phenomene>gresil</phenomene>
+                <phenomene>grele</phenomene>
+            </phénomènes>
+        </hydrométéore>
+        <altitude>
+            <min unite="m">300</min>
+            <max unite="m">18000</max>
+        </altitude>
+        <especes>
+            <espece>calvus</espece>
+            <espece>capilatus</espece>
+            <espece type="gros">mamatus</espece>
+        </especes>
+    </nuage>
+    
+    <nuage nom="cirrus">
+        <hydrométéore bool="false"></hydrométéore>
+        <altitude>
+            <min unite="m">6000</min>
+            <max unite="m">12000</max>
+        </altitude>
+        <especes>
+                <espece>castellanus</espece>
+                <espece>flocus</espece>
+                <espece>spissatus</espece>
+                <espece>uncinus</espece>
+                <espece>fibratus</espece>
+        </especes>
+
+    </nuage>
+    
+    <nuage nom="altocumulus">
+        <hydrométéore bool="false"></hydrométéore>
+        <altitude>
+            <min unite="m">2000</min>
+            <max unite="m">6000</max>
+        </altitude>
+        <especes>
+            <espece>lenticularis</espece>
+            <espece>stratiformis</espece>
+            <espece>castellanus</espece>
+            <espece>flocus</espece>
+        </especes>
+    </nuage>
+    
+    <nuage nom="cirrocumulus">
+        <hydrométéore bool="false"></hydrométéore>
+        <altitude>
+            <min unite="m">5000</min>
+            <max unite="m">7000</max>
+        </altitude>
+        <especes>
+            <espece>lenticularis</espece>
+            <espece>stratiformis</espece>
+            <espece>castellanus</espece>
+            <espece>flocus</espece>
+        </especes>
+    </nuage>
+    
+    <nuage nom="strato-cumulus">
+        <hydrométéore bool="false"></hydrométéore>
+        <altitude>
+            <min unite="m">0</min>
+            <max unite="m">2000</max>
+        </altitude>
+        <especes>
+            <espece>lenticularis</espece>
+            <espece>stratiformis</espece>
+            <espece>castellanus</espece>
+        </especes>
+    </nuage>
+    
+    <nuage nom="cumulus">
+        <hydrométéore bool="false"></hydrométéore>
+        <altitude>
+            <min unite="m">200</min>
+            <max unite="m">8000</max>
+        </altitude>
+        <especes>
+            <espece>fractus</espece>
+            <espece>mediocris</espece>
+            <espece>humilis</espece>
+            <espece>congestus</espece>
+        </especes>
+    </nuage>
+
+</nuages>

@@ -1,0 +1,13 @@
+<!-- EXERCICE 2 -->
+<!ELEMENT enseignants ( enseignant* ) >
+<!ELEMENT enseignant ( nom, prenoms, age?, annee?) >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenoms (prenom+) >
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT annee (#PCDATA) >
+<!ATTLIST enseignants
+annee CDATA #IMPLIED>
+<!ATTLIST enseignant
+dep CDATA #REQUIRED>
+<!ENTITY dep "ISIS" >

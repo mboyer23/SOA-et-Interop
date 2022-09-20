@@ -1,0 +1,7 @@
+<!ELEMENT nuages (nuage*)>
+<!ELEMENT nuage (hydrométéore?,altitude,especes)>
+<!ATTLIST hydrometeore bool (true|false) "false">
+<!ELEMENT hydrometeore (phenomenes?)>
+<!ELEMENT phenomenes (phenomene*)>
+<!ELEMENT altitude (min,max)>
+<!ELEMENT especes (espece*)>

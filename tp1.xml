@@ -1,0 +1,41 @@
+<!DOCTYPE enseignants SYSTEM "enseignants.dtd" >
+
+<!-- EXERCICE 1 -->
+
+<enseignants annee="2022">
+    <enseignant dep="&dep;">
+        <nom> Singer </nom>
+        <prenoms> 
+            <prenom> Nicolas </prenom>
+            <prenom> Prenom </prenom>
+        </prenoms>
+    </enseignant>
+    
+    <enseignant dep="&dep;">
+        <nom> Trouilhet </nom>
+        <prenoms> 
+            <prenom> Sylvie </prenom>
+        </prenoms>
+        <age> 38 </age>
+    </enseignant>
+</enseignants>
+
+<!-- FORMAT JSON
+{
+	"enseignants": {
+		"enseignant": [
+			{
+				"nom": "Singer",
+				"prenom": "Nicolas",
+				"_dep": "ISIS"
+			},
+			{
+				"nom": "Trouilhet",
+				"prenom": "Sylvie",
+				"age": "38",
+				"_dep": "ISIS"
+			}
+		]
+	}
+}
+-->
